@@ -1,0 +1,70 @@
+
+fieldset
+        {
+            border: solid black;
+        }
+
+fieldset input
+        {
+            background-color: darkred;
+            color: white;
+            border: none;
+            padding: 8px;
+            margin: 2px;
+     
+        }
+
+#submitNreset
+        {
+            text-align: center;
+        }
+.dropdown
+        {
+            width: 100%;
+        }
+
+.color
+        {
+
+            width: 100%;
+        }
+
+.datalist
+{
+    width: 100%;
+}
+
+.dob
+{
+    width: 100%;
+}
+
+.month
+{
+    width: 100%;
+}
+
+#email
+{
+    width: 100%;
+}
+
+.text
+{
+    width: 100%;
+}
+
+.body
+{
+    margin: 0px 25%;
+}
+
+.checkboxpertama
+{
+    width: 100%;
+}
+
+.checkboxkedua
+{
+    width: 100%;
+}

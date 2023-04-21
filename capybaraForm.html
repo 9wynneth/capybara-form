@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="capybaraForm.css">
+</head>
+<body>
+<div class="body">
+	<div id=header> 
+		<h1> Capybara Form </h1>
+	</div>
+	<form>
+        <label>ID Input:</label> <br>
+        <input type="text"
+               name="isianID"
+               size="20"
+               placeholder="Isian ID"> <br>
+        <label>Password Input: </label> <br>
+        <input type="password"
+               name="pass"
+               size="30"
+               placeholder="Enter password"> <br>
+        <label>Which one is better?</label> <br>
+        <input type="radio"
+               name="radioCapybara"
+               value="frontCapy"
+               checked> <br> <img src= "images//FrontCapy.jpg" width="80px"> <br>
+        <input type="radio"
+               name="radioCapybara"
+               value="frontCapy"
+               > <br> <img src="https://live.staticflickr.com/65535/48296042297_ab0d9e80f4_b.jpg" width="80px"> <br> <br>
+        <label>Select All picture that are related to Capybara</label> <br> <br>
+        <input class="checkboxpertama" type="checkbox" name="killingCapy" >  <img src="https://i.redd.it/choose-your-fighter-v0-9a5atfib7zx91.jpg?width=828&format=pjpg&auto=webp&s=5c922b94bcb5b2b592350369969b874f42cbbb29" width="80px"> <br>
+        <input class="checkboxkedua" type="checkbox" name="killingCapy"> <img src="https://pbs.twimg.com/media/Fpp6M3EaUAUsWTU.jpg" width="80px"> <br> <br>
+        <label>Select The Word that are related to the great Capybara:</label> <br>
+        <select class="dropdown" name="wordsAboutCapy">
+            <option>CAPYBARA </option>
+            <option>MASBRO </option>
+            <option>KAPIBARA </option>
+        </select> <br> <br>
+        <label>Uploadlah Gambar Capybara </label> <br>
+        <input name="upGambarCapy" type="file"> <br> <br>
+        <label>Isilah Text area berikut mengenai keindahan Capybara: </label> <br>
+        <textarea class="text" name="textArea" rows="5" cols="40"> Isian text area </textarea> <br> <br>
+        <label>Datalist Capybara </label> <br>
+        <input class="datalist" list="datalistCapy" name="dataCapy">
+        <datalist id="datalistCapy">
+            <option value="Capybara">
+            <option value="Masbrooo">
+            <option value="Kapibara">
+            <option value="HewanSantui">
+            <option value="Masbro">
+        </datalist> <br>
+        <label>Input Color yang berwarna sesuai masbro: </label> <br>
+        <input class="color" type="color" id="capyColor" name="capyColor" value="#804000" > <br> <br>
+        <label>Date Input Capy's Birthday: </label> <br>
+            <input class="dob" type="date" id="dobCapy" name="dobCapy">
+             <br> <br>
+        <label>Month Input</label> <br>
+        <input class="month" type="month"> <br> <br>
+        <label>Email Input</label> <br>
+            <input type="email" id="email" name="emailCapy"> <br> <br>
+        
+        <div id="submitNreset">
+        <fieldset>
+            <input type="submit" value="SUBMIT ALL"> <br> <br>
+            <input type="reset" value="RESET ALL">
+        </fieldset>
+        </div>
+        </form>
+    
+
+    <label>Hidden Capybara:</label> <input type="hidden">
+    </div>
+</body>
+</html>
